@@ -516,6 +516,10 @@
       .exp-logo img.exp-logo-air {
         width: 40%;
       }
+      .exp-logo img.basal-logo {
+        width: 62%;
+        max-height: 82px;
+      }
 
       .exp-details {
         display: flex;
@@ -572,6 +576,11 @@
           width: auto;
           max-width: 140px;
         }
+        .exp-logo img.basal-logo {
+          width: 58%;
+          max-width: 220px;
+          max-height: 68px;
+        }
       }
 
       /* 默认隐藏多余项目的类 */
@@ -608,6 +617,7 @@
 
       /* 深色主题下对特定图片做颜色翻转 */
       [data-theme="dark"] .wvm-logo,
+      [data-theme="dark"] .basal-logo,
       [data-theme="dark"] .invert-on-dark {
         filter: invert(1) hue-rotate(180deg);
       }
@@ -854,7 +864,7 @@
           <div class="aff">
             <p>
               <span class="arrow-icon">➤</span>
-              <span>Currently conducting research at <a href="https://seed.bytedance.com/en/?view_from=homepage_tab" target="_blank" rel="noopener noreferrer">ByteDance Seed Robotics</a>.</span>
+              <span>Currently Co-Founder &amp; Partner at Basal Intelligence, following a research internship at <a href="https://seed.bytedance.com/en/?view_from=homepage_tab" target="_blank" rel="noopener noreferrer">ByteDance Seed Robotics</a>.</span>
             </p>
             <p>
               <span class="arrow-icon">➤</span>
@@ -925,6 +935,17 @@
         <div class="exp-list">
           <div class="exp-item">
             <div class="exp-logo">
+              <img src="images/basal/wordmark.svg" alt="Basal Intelligence logo" class="basal-logo" />
+            </div>
+            <div class="exp-details">
+              <h3>Basal Intelligence</h3>
+              <span class="exp-time">2026.07 - Present</span>
+              <p class="exp-desc">Co-Founder &amp; Partner</p>
+            </div>
+          </div>
+
+          <div class="exp-item">
+            <div class="exp-logo">
               <svg class="bd-seed-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
                 <g fill="#3259ce">
                   <path d="M50 60 l0 80 l18 6 l0 -92 z" fill="#3259ce" />
@@ -939,7 +960,7 @@
             </div>
             <div class="exp-details">
               <h3><a href="https://seed.bytedance.com/en/gr_rl" target="_blank" rel="noopener noreferrer">Seed Robotics, ByteDance</a></h3>
-              <span class="exp-time">2026.01 - Present</span>
+              <span class="exp-time">2026.01 - 2026.07</span>
               <p class="exp-desc">Research Intern - World models, Value models</p>
             </div>
           </div>
